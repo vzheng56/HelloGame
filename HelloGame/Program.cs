@@ -38,7 +38,6 @@ namespace HelloGame
                 var damage = 2;
                 player.Damage(damage);
                 Say($"玩家损失了{damage}滴血");
-                Print("sss");
             }
 
             while (true)
@@ -67,11 +66,6 @@ namespace HelloGame
         }
 
         static void Say(string something)
-        {
-            Console.WriteLine(something);
-        }
-
-        static void Print(string something)
         {
             Console.WriteLine(something);
         }
